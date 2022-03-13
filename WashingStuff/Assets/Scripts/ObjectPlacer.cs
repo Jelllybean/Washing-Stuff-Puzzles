@@ -21,14 +21,6 @@ public class ObjectPlacer : MonoBehaviour
 		Vector3 mouse = Input.mousePosition;
 		Ray castPoint = Camera.main.ScreenPointToRay(mouse);
 		RaycastHit hit;
-		if (currentObject)
-		{
-			if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, lineLayers))
-			{
-				currentObject.position = hit.point;
-			}
-		}
-
 
 		if (Input.GetMouseButtonDown(0))
 		{
@@ -36,13 +28,30 @@ public class ObjectPlacer : MonoBehaviour
 			{
 				if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
 				{
-					Debug.Log(hit.collider.gameObject.name);
 					currentObject = hit.collider.transform;
 				}
 			}
-			else
+			//else
+			//{
+			//	currentObject = null;
+			//}
+		}
+
+		if (currentObject)
+		{
+			if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, lineLayers))
 			{
-				currentObject = null;
+				//currentObject.position = hit.point;
+				//currentObject.localPosition = new Vector3(hit.point.x, hit.transform.localPosition.y, hit.transform.localPosition.z);
+				if(hit.transform.CompareTag("LineCollision"))
+                {
+					currentObject.position = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.point.z);
+					currentObject.eulerAngles = new Vector3(currentObject.eulerAngles.x, hit.transform.eulerAngles.y, currentObject.eulerAngles.z);
+					if (Input.GetMouseButtonDown(0))
+                    {
+						currentObject = null;
+					}
+				}
 			}
 		}
 	}
