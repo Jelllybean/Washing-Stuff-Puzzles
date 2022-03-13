@@ -16,13 +16,17 @@ public class ClothesManager : MonoBehaviour
 
     public void CheckAllClothing()
     {
-        int total = 0;
+        int total = -1;
         for (int i = 0; i < clothesPieces.Count; i++)
         {
             if(clothesPieces[i].CheckHangedStatus())
             {
-
+                total++;
             }
+        }
+        if(total == clothesPieces.Count)
+        {
+            Debug.Log("level gehaald");
         }
     }
 }

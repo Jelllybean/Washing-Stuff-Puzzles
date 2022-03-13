@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,14 +7,8 @@ public class ObjectPlacer : MonoBehaviour
 	[SerializeField] private Transform currentObject;
 	[SerializeField] private LayerMask lineLayers;
 	[SerializeField] private LayerMask objectLayers;
+	[SerializeField] private List<GameObject> InvisibleLines = new List<GameObject>();
 
-
-	void Start()
-	{
-
-	}
-
-	// Update is called once per frame
 	void Update()
 	{
 		Vector3 mouse = Input.mousePosition;
@@ -29,6 +22,16 @@ public class ObjectPlacer : MonoBehaviour
 				if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
 				{
 					currentObject = hit.collider.transform;
+					currentObject.eulerAngles = Vector3.zero;
+					if(currentObject.CompareTag("ClothesPin"))
+                    {
+						SetInvisibleLines(false);
+						currentObject.transform.position = Vector3.zero;
+                    }
+					else if (currentObject.CompareTag("Clothes"))
+					{
+						SetInvisibleLines(true);
+					}
 				}
 			}
 			//else
@@ -55,4 +58,12 @@ public class ObjectPlacer : MonoBehaviour
 			}
 		}
 	}
+
+	private void SetInvisibleLines(bool _state)
+    {
+        for (int i = 0; i < InvisibleLines.Count; i++)
+        {
+			InvisibleLines[i].SetActive(_state);
+        }
+    }
 }
