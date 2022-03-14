@@ -5,6 +5,7 @@ using UnityEngine;
 public class ClothesManager : MonoBehaviour
 {
     [SerializeField] private List<ClothingStats> clothesPieces = new List<ClothingStats>();
+    [SerializeField] private GameObject victoryScreen;
 
     private void Update()
     {
@@ -16,7 +17,7 @@ public class ClothesManager : MonoBehaviour
 
     public void CheckAllClothing()
     {
-        int total = -1;
+        int total = 0;
         for (int i = 0; i < clothesPieces.Count; i++)
         {
             if(clothesPieces[i].CheckHangedStatus())
@@ -26,7 +27,15 @@ public class ClothesManager : MonoBehaviour
         }
         if(total == clothesPieces.Count)
         {
-            Debug.Log("level gehaald");
+            victoryScreen.SetActive(true);
+        }
+    }
+
+    public void ResetAllClothing()
+	{
+        for (int i = 0; i < clothesPieces.Count; i++)
+        {
+            clothesPieces[i].ResetClothes();
         }
     }
 }

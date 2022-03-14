@@ -9,10 +9,12 @@ public class ClothingStats : Stats
     public List<ClothespinStats> connectedPins = new List<ClothespinStats>();
     [SerializeField] private Rigidbody rigidBody;
     private Vector3 hangedPosition;
+    private Vector3 hangedRotation;
 
     public bool CheckHangedStatus()
     {
         hangedPosition = transform.position;
+        hangedRotation = transform.eulerAngles;
         float total = 0;
         for (int i = 0; i < connectedPins.Count; i++)
         {
@@ -31,4 +33,11 @@ public class ClothingStats : Stats
             //vallen
         }
     }
+
+    public void ResetClothes()
+	{
+        transform.position = hangedPosition;
+        transform.eulerAngles = hangedPosition;
+        rigidBody.constraints = RigidbodyConstraints.FreezeAll;
+	}
 }

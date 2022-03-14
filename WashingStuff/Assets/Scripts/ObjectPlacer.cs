@@ -8,6 +8,12 @@ public class ObjectPlacer : MonoBehaviour
 	[SerializeField] private LayerMask lineLayers;
 	[SerializeField] private LayerMask objectLayers;
 	[SerializeField] private List<GameObject> InvisibleLines = new List<GameObject>();
+	[SerializeField] private List<GameObject> OverlapPreventors = new List<GameObject>();
+
+	private void Start()
+	{
+		SetOverlapPreventors(false);
+	}
 
 	void Update()
 	{
@@ -15,55 +21,63 @@ public class ObjectPlacer : MonoBehaviour
 		Ray castPoint = Camera.main.ScreenPointToRay(mouse);
 		RaycastHit hit;
 
-		if (Input.GetMouseButtonDown(0))
+		if (!currentObject)
 		{
-			if (!currentObject)
+			if (Input.GetMouseButtonDown(0))
 			{
 				if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
 				{
 					currentObject = hit.collider.transform;
 					currentObject.eulerAngles = Vector3.zero;
-					if(currentObject.CompareTag("ClothesPin"))
-                    {
+					if (currentObject.CompareTag("ClothesPin"))
+					{
 						SetInvisibleLines(false);
 						currentObject.transform.position = Vector3.zero;
-                    }
+					}
 					else if (currentObject.CompareTag("Clothes"))
 					{
 						SetInvisibleLines(true);
+						SetOverlapPreventors(true);
+						currentObject.GetChild(0).gameObject.SetActive(false);
 					}
 				}
 			}
-			//else
-			//{
-			//	currentObject = null;
-			//}
 		}
-
-		if (currentObject)
+		else if (currentObject)
 		{
 			if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, lineLayers))
 			{
-				//currentObject.position = hit.point;
-				//currentObject.localPosition = new Vector3(hit.point.x, hit.transform.localPosition.y, hit.transform.localPosition.z);
-				if(hit.transform.CompareTag("LineCollision"))
-                {
+				if (hit.transform.CompareTag("LineCollision"))
+				{
 					currentObject.position = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.point.z);
 					currentObject.eulerAngles = new Vector3(currentObject.eulerAngles.x, hit.transform.eulerAngles.y, currentObject.eulerAngles.z);
 					if (Input.GetMouseButtonDown(0))
-                    {
+					{
 						currentObject = null;
+						SetOverlapPreventors(false);
 					}
+				}
+				else if (hit.transform.CompareTag("BackgroundCollision"))
+				{
+					currentObject.position = hit.point;
 				}
 			}
 		}
 	}
 
 	private void SetInvisibleLines(bool _state)
-    {
-        for (int i = 0; i < InvisibleLines.Count; i++)
-        {
+	{
+		for (int i = 0; i < InvisibleLines.Count; i++)
+		{
 			InvisibleLines[i].SetActive(_state);
-        }
-    }
+		}
+	}
+
+	private void SetOverlapPreventors(bool _state)
+	{
+		for (int i = 0; i < OverlapPreventors.Count; i++)
+		{
+			OverlapPreventors[i].SetActive(_state);
+		}
+	}
 }

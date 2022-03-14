@@ -7,6 +7,7 @@ TagManager:
   - LineCollision
   - Clothes
   - ClothesPin
+  - BackgroundCollision
   layers:
   - Default
   - TransparentFX
