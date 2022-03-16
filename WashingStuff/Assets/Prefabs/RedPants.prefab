@@ -146,6 +146,7 @@ MonoBehaviour:
   weight: 15
   connectedPins: []
   rigidBody: {fileID: 8933988130573829778}
+  weightText: {fileID: 9059586657057412021}
 --- !u!54 &8933988130573829778
 Rigidbody:
   m_ObjectHideFlags: 0

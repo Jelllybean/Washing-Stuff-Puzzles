@@ -8,6 +8,7 @@ public class ClothingStats : Stats
     public float weight;
     public List<ClothespinStats> connectedPins = new List<ClothespinStats>();
     [SerializeField] private Rigidbody rigidBody;
+    [SerializeField] private GameObject weightText;
     private Vector3 hangedPosition;
     private Vector3 hangedRotation;
 
@@ -37,7 +38,19 @@ public class ClothingStats : Stats
     public void ResetClothes()
 	{
         transform.position = hangedPosition;
-        transform.eulerAngles = hangedPosition;
+        transform.eulerAngles = hangedRotation;
         rigidBody.constraints = RigidbodyConstraints.FreezeAll;
 	}
+
+	private void Update()
+	{
+		if(transform.eulerAngles.y == 90)
+		{
+            weightText.transform.eulerAngles = new Vector3(weightText.transform.eulerAngles.x, 0, weightText.transform.eulerAngles.z);
+		}
+        else
+		{
+            weightText.transform.eulerAngles = new Vector3(weightText.transform.eulerAngles.x, 90, weightText.transform.eulerAngles.z);
+        }
+    }
 }

@@ -23,6 +23,13 @@ public class ObjectPlacer : MonoBehaviour
 
 		if (!currentObject)
 		{
+			if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
+			{
+				if (hit.collider.CompareTag("Clothes"))
+				{
+					hit.transform.GetChild(1).gameObject.SetActive(true);
+				}
+			}
 			if (Input.GetMouseButtonDown(0))
 			{
 				if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
