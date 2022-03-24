@@ -12,7 +12,7 @@ public class ClothingStats : Stats
     private Vector3 hangedPosition;
     private Vector3 hangedRotation;
 
-    public bool CheckHangedStatus()
+	public bool CheckHangedStatus()
     {
         hangedPosition = transform.position;
         hangedRotation = transform.eulerAngles;
@@ -23,15 +23,12 @@ public class ClothingStats : Stats
         }
         if(total >= weight)
         {
-            //mag blijven hangen
-            Debug.Log("klopt hoor");
             return true;
         }
         else
         {
             rigidBody.constraints = RigidbodyConstraints.None;
             return false;
-            //vallen
         }
     }
 
@@ -46,11 +43,11 @@ public class ClothingStats : Stats
 	{
 		if(transform.eulerAngles.y == 90)
 		{
-            weightText.transform.eulerAngles = new Vector3(weightText.transform.eulerAngles.x, 0, weightText.transform.eulerAngles.z);
+            weightText.transform.eulerAngles = Vector3.zero;
 		}
         else
 		{
-            weightText.transform.eulerAngles = new Vector3(weightText.transform.eulerAngles.x, 90, weightText.transform.eulerAngles.z);
+            weightText.transform.eulerAngles = new Vector3(0, 90, 0);
         }
     }
 }

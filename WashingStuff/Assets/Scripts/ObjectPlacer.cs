@@ -10,6 +10,8 @@ public class ObjectPlacer : MonoBehaviour
 	[SerializeField] private List<GameObject> InvisibleLines = new List<GameObject>();
 	[SerializeField] private List<GameObject> OverlapPreventors = new List<GameObject>();
 
+	private GameObject currentTextObject;
+
 	private void Start()
 	{
 		SetOverlapPreventors(false);
@@ -23,11 +25,19 @@ public class ObjectPlacer : MonoBehaviour
 
 		if (!currentObject)
 		{
-			if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
+			if (Physics.Raycast(castPoint, out hit, Mathf.Infinity))
 			{
 				if (hit.collider.CompareTag("Clothes"))
 				{
-					hit.transform.GetChild(1).gameObject.SetActive(true);
+					currentTextObject.SetActive(false);
+					currentTextObject = null;
+					currentTextObject = hit.collider.gameObject.transform.GetChild(1).gameObject;
+					currentTextObject.SetActive(true);
+				}
+				else
+				{
+					Debug.Log(currentTextObject.name);
+					currentTextObject.SetActive(false);
 				}
 			}
 			if (Input.GetMouseButtonDown(0))
