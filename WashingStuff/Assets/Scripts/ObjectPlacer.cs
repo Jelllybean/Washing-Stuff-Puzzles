@@ -29,15 +29,20 @@ public class ObjectPlacer : MonoBehaviour
 			{
 				if (hit.collider.CompareTag("Clothes"))
 				{
-					currentTextObject.SetActive(false);
-					currentTextObject = null;
-					currentTextObject = hit.collider.gameObject.transform.GetChild(1).gameObject;
+					if (currentTextObject)
+					{
+						currentTextObject.SetActive(false);
+						currentTextObject = null;
+					}
+					currentTextObject = hit.collider.gameObject.transform.root.GetChild(1).gameObject;
 					currentTextObject.SetActive(true);
 				}
 				else
 				{
-					Debug.Log(currentTextObject.name);
-					currentTextObject.SetActive(false);
+					if (currentTextObject)
+					{
+						currentTextObject.SetActive(false);
+					}
 				}
 			}
 			if (Input.GetMouseButtonDown(0))
@@ -53,6 +58,10 @@ public class ObjectPlacer : MonoBehaviour
 					}
 					else if (currentObject.CompareTag("Clothes"))
 					{
+						if(currentObject.transform.parent != null)
+						{
+							currentObject = currentObject.transform.root;
+						}
 						SetInvisibleLines(true);
 						SetOverlapPreventors(true);
 						currentObject.GetChild(0).gameObject.SetActive(false);

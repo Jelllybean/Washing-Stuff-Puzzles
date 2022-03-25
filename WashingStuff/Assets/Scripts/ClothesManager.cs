@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ClothesManager : MonoBehaviour
 {
@@ -37,5 +38,10 @@ public class ClothesManager : MonoBehaviour
         {
             clothesPieces[i].ResetClothes();
         }
+    }
+
+    public void NextLevel(string _sceneName)
+	{
+        SceneManager.LoadScene(_sceneName);
     }
 }
