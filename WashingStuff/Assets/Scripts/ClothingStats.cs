@@ -41,7 +41,7 @@ public class ClothingStats : Stats
 
 	private void Update()
 	{
-		if(transform.eulerAngles.y == 90)
+		if(transform.root.eulerAngles.y == 90)
 		{
             weightText.transform.eulerAngles = Vector3.zero;
 		}

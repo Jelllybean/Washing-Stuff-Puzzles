@@ -50,7 +50,7 @@ public class ObjectPlacer : MonoBehaviour
 				if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, objectLayers))
 				{
 					currentObject = hit.collider.transform;
-					currentObject.eulerAngles = Vector3.zero;
+					//currentObject.eulerAngles = Vector3.zero;
 					if (currentObject.CompareTag("ClothesPin"))
 					{
 						SetInvisibleLines(false);
@@ -77,16 +77,16 @@ public class ObjectPlacer : MonoBehaviour
 				{
 					currentObject.position = new Vector3(hit.transform.position.x, hit.transform.position.y, hit.point.z);
 					currentObject.eulerAngles = new Vector3(currentObject.eulerAngles.x, hit.transform.eulerAngles.y, currentObject.eulerAngles.z);
-					if (Input.GetMouseButtonDown(0))
-					{
-						currentObject = null;
-						SetOverlapPreventors(false);
-					}
 				}
 				else if (hit.transform.CompareTag("BackgroundCollision"))
 				{
 					currentObject.position = hit.point;
 				}
+			}
+			if (Input.GetMouseButtonDown(0))
+			{
+				currentObject = null;
+				SetOverlapPreventors(false);
 			}
 		}
 	}
