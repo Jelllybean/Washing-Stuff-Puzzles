@@ -44,4 +44,9 @@ public class ClothesManager : MonoBehaviour
 	{
         SceneManager.LoadScene(_sceneName);
     }
+
+    public void QuitGame()
+	{
+        Application.Quit();
+	}
 }

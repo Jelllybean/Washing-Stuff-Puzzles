@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9448ea7d019e1e4796815605d1cfaf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colors: 1
+  colors: 2
   weight: 7.5
   connectedPins: []
   rigidBody: {fileID: 6882063716859152176}
