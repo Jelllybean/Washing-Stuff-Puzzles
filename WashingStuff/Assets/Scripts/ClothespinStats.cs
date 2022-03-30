@@ -5,27 +5,34 @@ using UnityEngine;
 public class ClothespinStats : Stats
 {
     public float pullWeight;
+    public bool checkCollision = true;
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Clothes"))
+        if (checkCollision)
         {
-            ClothingStats _stats = collision.gameObject.GetComponent<ClothingStats>();
-            if(_stats.colors == colors)
+            if (collision.gameObject.CompareTag("Clothes"))
             {
-                _stats.connectedPins.Add(this);
+                ClothingStats _stats = collision.gameObject.GetComponent<ClothingStats>();
+                if (_stats.colors == colors && !_stats.connectedPins.Contains(this))
+                {
+                    _stats.connectedPins.Add(this);
+                }
             }
         }
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Clothes"))
+        if (checkCollision)
         {
-            ClothingStats _stats = collision.gameObject.GetComponent<ClothingStats>();
-            if (_stats.colors == colors)
+            if (collision.gameObject.CompareTag("Clothes"))
             {
-                _stats.connectedPins.Remove(this);
+                ClothingStats _stats = collision.gameObject.GetComponent<ClothingStats>();
+                if (_stats.colors == colors)
+                {
+                    _stats.connectedPins.Remove(this);
+                }
             }
         }
     }

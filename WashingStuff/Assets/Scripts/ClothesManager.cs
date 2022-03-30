@@ -7,6 +7,7 @@ public class ClothesManager : MonoBehaviour
 {
     [SerializeField] private List<ClothingStats> clothesPieces = new List<ClothingStats>();
     [SerializeField] private GameObject victoryScreen;
+    [SerializeField] private List<ClothespinStats> clothesPins = new List<ClothespinStats>();
 
     private void Update()
     {
@@ -18,6 +19,7 @@ public class ClothesManager : MonoBehaviour
 
     public void CheckAllClothing()
     {
+        SetPins(false);
         int total = 0;
         for (int i = 0; i < clothesPieces.Count; i++)
         {
@@ -26,6 +28,8 @@ public class ClothesManager : MonoBehaviour
                 total++;
             }
         }
+        Debug.Log("total: " + total);
+        Debug.Log("clothes: " + clothesPieces.Count);
         if(total == clothesPieces.Count)
         {
             victoryScreen.SetActive(true);
@@ -34,9 +38,18 @@ public class ClothesManager : MonoBehaviour
 
     public void ResetAllClothing()
 	{
+        SetPins(true);
         for (int i = 0; i < clothesPieces.Count; i++)
         {
             clothesPieces[i].ResetClothes();
+        }
+    }
+
+    private void SetPins(bool _setting)
+    {
+        for (int i = 0; i < clothesPins.Count; i++)
+        {
+            clothesPins[i].checkCollision = _setting;
         }
     }
 
