@@ -6,11 +6,18 @@ using TMPro;
 public class PinCounter : MonoBehaviour
 {
     [SerializeField] private TextMeshPro countText;
-    [SerializeField] private int pinAmount;
+    public int pinAmount;
 
     private void Start()
     {
-        countText.text = pinAmount + "x";
+        if(pinAmount > 0)
+        {
+            countText.text = pinAmount + "x";
+        }
+        else
+        {
+            countText.gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerExit(Collider other)

@@ -12,6 +12,8 @@ public class ClothingStats : Stats
     private Vector3 hangedPosition;
     private Vector3 hangedRotation;
 
+    [SerializeField] private List<MeshRenderer> renderers;
+
 	public bool CheckHangedStatus()
     {
         hangedPosition = transform.position;
@@ -41,13 +43,23 @@ public class ClothingStats : Stats
 
 	private void Update()
 	{
-		if(transform.root.eulerAngles.y == 90)
-		{
-            weightText.transform.eulerAngles = Vector3.zero;
-		}
-        else
-		{
-            weightText.transform.eulerAngles = new Vector3(0, 90, 0);
+		//if(transform.root.eulerAngles.y == 90)
+		//{
+        //    weightText.transform.eulerAngles = Vector3.zero;
+		//}
+        //else
+		//{
+        //    weightText.transform.eulerAngles = new Vector3(0, 90, 0);
+        //}
+    }
+
+    public void SetShaders(Material _material)
+    {
+        for (int i = 0; i < renderers.Count; i++)
+        {
+            Material[] mats = renderers[i].materials;
+            mats[1] = _material;
+            renderers[i].materials = mats;
         }
     }
 }

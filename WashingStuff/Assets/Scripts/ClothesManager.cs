@@ -7,7 +7,10 @@ public class ClothesManager : MonoBehaviour
 {
     [SerializeField] private List<ClothingStats> clothesPieces = new List<ClothingStats>();
     [SerializeField] private GameObject victoryScreen;
-    [SerializeField] private List<ClothespinStats> clothesPins = new List<ClothespinStats>();
+    [SerializeField] private ClothespinStats[] clothesPins;
+
+    [InspectorButton("GetAllClothes")]
+    public bool GetClothes;
 
     private void Update()
     {
@@ -15,6 +18,8 @@ public class ClothesManager : MonoBehaviour
         {
             CheckAllClothing();
         }
+
+        clothesPins = FindObjectsByType<ClothespinStats>(FindObjectsSortMode.None);
     }
 
     public void CheckAllClothing()
@@ -47,7 +52,7 @@ public class ClothesManager : MonoBehaviour
 
     private void SetPins(bool _setting)
     {
-        for (int i = 0; i < clothesPins.Count; i++)
+        for (int i = 0; i < clothesPins.Length; i++)
         {
             clothesPins[i].checkCollision = _setting;
         }
@@ -62,4 +67,16 @@ public class ClothesManager : MonoBehaviour
 	{
         Application.Quit();
 	}
+
+    public void GetAllClothes()
+    {
+        clothesPieces.Clear();
+
+        ClothingStats[] _clothingStats = FindObjectsByType<ClothingStats>(FindObjectsSortMode.None);
+
+        for (int i = 0; i < _clothingStats.Length; i++)
+        {
+            clothesPieces.Add(_clothingStats[i]);
+        }
+    }
 }

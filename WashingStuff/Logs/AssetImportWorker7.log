@@ -1,0 +1,1831 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.44f1 (101c91f3a8fb) revision 1055889'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/emily/OneDrive/Documents/Unity Projects/Washing-Stuff-Puzzles/WashingStuff
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+59346
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/emily/OneDrive/Documents/Unity Projects/Washing-Stuff-Puzzles/WashingStuff
+C:/Users/emily/OneDrive/Documents/Unity Projects/Washing-Stuff-Puzzles/WashingStuff
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16392]  Target information:
+
+Player connection [16392]  * "[IP] 10.3.26.188 [Port] 0 [Flags] 2 [Guid] 1036618423 [EditorId] 1036618423 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KDUKOO6P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 167.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emily/OneDrive/Documents/Unity Projects/Washing-Stuff-Puzzles/WashingStuff/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7270
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009460 seconds.
+- Loaded All Assemblies, in  2.147 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.618 seconds
+Domain Reload Profiling: 4759ms
+	BeginReloadAssembly (563ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (136ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (1197ms)
+		LoadAssemblies (553ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1190ms)
+			TypeCache.Refresh (1184ms)
+				TypeCache.ScanAssembly (1127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (1006ms)
+			ProcessInitializeOnLoadAttributes (980ms)
+			ProcessInitializeOnLoadMethodAttributes (237ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.357 seconds
+Refreshing native plugins compatible for Editor in 33.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.807 seconds
+Domain Reload Profiling: 5153ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (2780ms)
+		LoadAssemblies (1908ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1083ms)
+			TypeCache.Refresh (513ms)
+				TypeCache.ScanAssembly (355ms)
+			BuildScriptInfoCaches (511ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (1807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1216ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (307ms)
+			ProcessInitializeOnLoadAttributes (783ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.91 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5579 unused Assets / (6.0 MB). Loaded Objects now: 6133.
+Memory consumption went from 148.7 MB to 142.6 MB.
+Total: 29.297000 ms (FindLiveObjects: 1.986500 ms CreateObjectMapping: 2.331000 ms MarkObjects: 14.852400 ms  DeleteObjects: 10.124200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 509711.348054 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Asparagus_01.fbx
+  artifactKey: Guid(5ee4e22e575edc54492fd9adb522ddd7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Asparagus_01.fbx using Guid(5ee4e22e575edc54492fd9adb522ddd7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c8a8d02c26be26efb863cb757c076849') in 0.4656638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonFarm/Demo/DemoSettings.lighting
+  artifactKey: Guid(6627552b1da929940acc3ce16379fe3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Demo/DemoSettings.lighting using Guid(6627552b1da929940acc3ce16379fe3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f036459863ead5415986e049539c1a80') in 0.081095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Cloud_03_Convex.asset
+  artifactKey: Guid(a67abbc36ade1f1498ab83f5a4e7ed31) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Cloud_03_Convex.asset using Guid(a67abbc36ade1f1498ab83f5a4e7ed31) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '15ec0bf0cf195141d4974d6c04c665b8') in 0.0320361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Bld_Barn_01_Convex.asset
+  artifactKey: Guid(a30dec09a5c8e3644972c267e95f0f20) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Bld_Barn_01_Convex.asset using Guid(a30dec09a5c8e3644972c267e95f0f20) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'de8504093208b798ad99fec7ec84700b') in 0.0342664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Small_Rocks_03_Convex.asset
+  artifactKey: Guid(d7ac6b4c983e75e4ca694fecdec954a2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Small_Rocks_03_Convex.asset using Guid(d7ac6b4c983e75e4ca694fecdec954a2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '90841a7289b390a4183bc358555293a9') in 0.037127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Fancy_Pole_02_Convex.asset
+  artifactKey: Guid(d782420084d3fcc42bb6fffbd1304328) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Fancy_Pole_02_Convex.asset using Guid(d782420084d3fcc42bb6fffbd1304328) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e742db2930cfe291f029e926586a081f') in 0.0266386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Wood_02_Convex.asset
+  artifactKey: Guid(310c33f449bc1de478b93e39fd657111) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Wood_02_Convex.asset using Guid(310c33f449bc1de478b93e39fd657111) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '72418bbe0c22f230d787e1f8153caba9') in 0.0278346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Chicken_Coop_Cage_01_Convex.asset
+  artifactKey: Guid(dd4a830d167cde4449d3a4e8adb1c269) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Chicken_Coop_Cage_01_Convex.asset using Guid(dd4a830d167cde4449d3a4e8adb1c269) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '59f278cb961080f7dbdbaf932265d09f') in 0.0239137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Broccoli_01_L_Convex.asset
+  artifactKey: Guid(798dbbfc4a38c484781bbb3cb09d8c85) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Broccoli_01_L_Convex.asset using Guid(798dbbfc4a38c484781bbb3cb09d8c85) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9885cfd5a15822111b934dbe83f36a94') in 0.0619773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Cabbage_01_S_Convex.asset
+  artifactKey: Guid(bdb0fdaee1e3bb348a74e11324aa0350) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Cabbage_01_S_Convex.asset using Guid(bdb0fdaee1e3bb348a74e11324aa0350) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '88a636e2a3a8c14c311b8d8530eb203e') in 0.0281664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Banana_01.fbx
+  artifactKey: Guid(1d29dbd8c2a49774585987f54c047299) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Banana_01.fbx using Guid(1d29dbd8c2a49774585987f54c047299) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7123b9b957bc3a4f64f6a86e1e4d157b') in 0.0320016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010212 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Beetroot_01_Group.fbx
+  artifactKey: Guid(57cca3de3e7e6e743bdabe96dda0c960) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Beetroot_01_Group.fbx using Guid(57cca3de3e7e6e743bdabe96dda0c960) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '265b6aa5cf300498cdf22e85eed47cd3') in 0.0690714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_ClothesLine_03.fbx
+  artifactKey: Guid(024a0f0cd2812ba4180c2b75fc5359da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_ClothesLine_03.fbx using Guid(024a0f0cd2812ba4180c2b75fc5359da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a3251f4b93035b2ebe7306ad9c8ec5d3') in 0.0411192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Broccoli_01_S.fbx
+  artifactKey: Guid(a2ef14d6c0c4f084aa0544722fe9877c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Broccoli_01_S.fbx using Guid(a2ef14d6c0c4f084aa0544722fe9877c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '4927007816125e9a7edbf097b9932efc') in 0.0449653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Carrot_01_L.fbx
+  artifactKey: Guid(362859ccf53dbbb4c9fed71458c873db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Carrot_01_L.fbx using Guid(362859ccf53dbbb4c9fed71458c873db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a7ab2da568bb722977af000f392b22b3') in 0.0345281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Cherry_01.fbx
+  artifactKey: Guid(c2dece7d7072c0148a011c124b1302e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Cherry_01.fbx using Guid(c2dece7d7072c0148a011c124b1302e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8c2aa8e5c5a2b1ee98fb713a400a5290') in 0.0329803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Eggplant_01_M.fbx
+  artifactKey: Guid(167b47a65d27ca0489c8b9e34ae2c3aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Eggplant_01_M.fbx using Guid(167b47a65d27ca0489c8b9e34ae2c3aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1d87a8d6d463a768bf93158d1a4caf55') in 0.042471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Fancy_02_Convex.asset
+  artifactKey: Guid(6b0fded281018724083979ab6fc9355d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Fancy_02_Convex.asset using Guid(6b0fded281018724083979ab6fc9355d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b8fe82a593033be23cb2bcb93ad42b1e') in 0.0297079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Corn_01_Group_Convex.asset
+  artifactKey: Guid(050e45b319edf35418191724e61da707) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Corn_01_Group_Convex.asset using Guid(050e45b319edf35418191724e61da707) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '099876a2ff5308522631a468a0472466') in 0.0318842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098927 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Hay_Bale_Round_02_Green_Convex.asset
+  artifactKey: Guid(dfd36c47cddd5b442a2c9b76b035ffee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Hay_Bale_Round_02_Green_Convex.asset using Guid(dfd36c47cddd5b442a2c9b76b035ffee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '74c91aabeccf949d9c6ea02922408d0c') in 0.0355669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lemon_01_Convex.asset
+  artifactKey: Guid(2fbb3e7cf53e2db4fafafccb6742ff85) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lemon_01_Convex.asset using Guid(2fbb3e7cf53e2db4fafafccb6742ff85) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'decf69fa2d9571018a436340265a4cb7') in 0.0345694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lemon_01_Group_Convex.asset
+  artifactKey: Guid(1f3970839c7818b49b7eb356c746a973) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lemon_01_Group_Convex.asset using Guid(1f3970839c7818b49b7eb356c746a973) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '06e2f755462a0f107549e0999eb6bc9d') in 0.0304147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Hay_Bale_Square_02_Convex.asset
+  artifactKey: Guid(c042e50f9e394924db48f009edcc4416) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Hay_Bale_Square_02_Convex.asset using Guid(c042e50f9e394924db48f009edcc4416) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '73dace66b3735b69eb574c932fbe9ddb') in 0.0307479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Ground_01_M_Convex.asset
+  artifactKey: Guid(170311b7df8261542bc9f452ed7b3b11) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Ground_01_M_Convex.asset using Guid(170311b7df8261542bc9f452ed7b3b11) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '106e2666ce44db7565c5e40971be0cca') in 0.0243922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Corn_01_M_Convex.asset
+  artifactKey: Guid(05c165964ede5224cb72db783da11e16) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Corn_01_M_Convex.asset using Guid(05c165964ede5224cb72db783da11e16) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1de3b43a08ac648b42fd965d5f90b6b4') in 0.0380017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Horse_Jump_02_Convex 1.asset
+  artifactKey: Guid(6d963dc3a381fc64585c7f3b58269ff0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Horse_Jump_02_Convex 1.asset using Guid(6d963dc3a381fc64585c7f3b58269ff0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2411234bd796df9e1c25eac28c2c99c7') in 0.0230334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Strawberry_01_Convex.asset
+  artifactKey: Guid(983fa9bbc67fd2942bb6dba1f341a487) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Strawberry_01_Convex.asset using Guid(983fa9bbc67fd2942bb6dba1f341a487) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6fe5af66f8fd037d952a0859f2e33308') in 0.0250477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434286 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plum_01_Group_Convex.asset
+  artifactKey: Guid(4b40f0e81538a344893c62cb50557af5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plum_01_Group_Convex.asset using Guid(4b40f0e81538a344893c62cb50557af5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '604d241797244981ee6264bb2e0b0cc4') in 0.0228658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pumpkin_01_M_Convex.asset
+  artifactKey: Guid(5cf63b2d6a6922440a9081ccda663507) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pumpkin_01_M_Convex.asset using Guid(5cf63b2d6a6922440a9081ccda663507) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7bb1b51e9812c2c1461434b870f3254b') in 0.0267038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Rack_01_Convex.asset
+  artifactKey: Guid(1d402601469df5145bce5a3dd1db6b0f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Rack_01_Convex.asset using Guid(1d402601469df5145bce5a3dd1db6b0f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a0c483ce87420d8aba4719acf0fb8fb7') in 0.0293172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Ranch_Sign_01_Convex.asset
+  artifactKey: Guid(72675d17b20d82d4988542b5850cb891) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Ranch_Sign_01_Convex.asset using Guid(72675d17b20d82d4988542b5850cb891) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd85de3dca55a160add33538e10622c0b') in 0.0316575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Strawberry_01_S_Convex.asset
+  artifactKey: Guid(d2ce1d0114ae1e644807d4a6443b670f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Strawberry_01_S_Convex.asset using Guid(d2ce1d0114ae1e644807d4a6443b670f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ecb1bd334d26e766bd585ea819c76c17') in 0.0285722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pumpkin_White_01_Convex.asset
+  artifactKey: Guid(63edc15268ac808429820933cb874972) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pumpkin_White_01_Convex.asset using Guid(63edc15268ac808429820933cb874972) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '42e2394bd85d968e19e74da2151bf9ec') in 0.0245766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Squash_Delicata_01_Convex.asset
+  artifactKey: Guid(005dda7b3d2d78a45becdd92bc95d717) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Squash_Delicata_01_Convex.asset using Guid(005dda7b3d2d78a45becdd92bc95d717) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fd952d0802689432a6fe5aa1f5e1edd5') in 0.0301888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Squash_Delicata_01_L_Convex.asset
+  artifactKey: Guid(1be36b0717512444f9f8825e531b45db) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Squash_Delicata_01_L_Convex.asset using Guid(1be36b0717512444f9f8825e531b45db) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ef6abe72da486e319ae9bfa592567390') in 0.0192718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046450 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Fence_Wood_03.fbx
+  artifactKey: Guid(5297752f093e5914b83b102fb4ca8a77) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Fence_Wood_03.fbx using Guid(5297752f093e5914b83b102fb4ca8a77) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '3696a7be39935e06d79e928b302507dd') in 0.0280886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Plant_Bush_02_S.fbx
+  artifactKey: Guid(7f90442c42c67c9459b16d5aeadbcba5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Plant_Bush_02_S.fbx using Guid(7f90442c42c67c9459b16d5aeadbcba5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '67c0cd925221fc2ea5fdf3bbafc2a946') in 0.0258721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Hemp_01_L.fbx
+  artifactKey: Guid(9cab9db6b0c57d449b0f5563f92de14c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Hemp_01_L.fbx using Guid(9cab9db6b0c57d449b0f5563f92de14c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9f0c684f0e0596065c09a4af2f786e1f') in 0.0232741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_LetterBox_05.fbx
+  artifactKey: Guid(179b418e6dee72d44b0dc702770f567f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_LetterBox_05.fbx using Guid(179b418e6dee72d44b0dc702770f567f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '3a508f10b06c0709eb8b2848111df0af') in 0.0318216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Horse_Jump_03.fbx
+  artifactKey: Guid(258f0d4540938594681cb716d12ccc0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Horse_Jump_03.fbx using Guid(258f0d4540938594681cb716d12ccc0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '62de919537995824018774f23711f7a1') in 0.0346962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Plant_Bush_01_S.fbx
+  artifactKey: Guid(5863613c13383ba4cbcd755da3576e9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Plant_Bush_01_S.fbx using Guid(5863613c13383ba4cbcd755da3576e9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '16410e24f9426fdd60cbee1a43368dcb') in 0.0336461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Horse_Jump_01.fbx
+  artifactKey: Guid(00acff2e766c01945aa903fc4caf1a7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Horse_Jump_01.fbx using Guid(00acff2e766c01945aa903fc4caf1a7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'dc24555171b6f5de6707888b908847eb') in 0.0404272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Pepper_01_L.fbx
+  artifactKey: Guid(588b9bf99204adb4b830e87d0ffd3294) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Pepper_01_L.fbx using Guid(588b9bf99204adb4b830e87d0ffd3294) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6dffb630ce7ef90d46672607d78c9ce4') in 0.0300544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003785 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Watermelon_01_M_Convex.asset
+  artifactKey: Guid(f42865d2aa3b9b6489ab61f853f9fa41) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Watermelon_01_M_Convex.asset using Guid(f42865d2aa3b9b6489ab61f853f9fa41) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6cc309f2df56dcb17821d58b14a9b53a') in 0.0285484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Cherry_01.prefab
+  artifactKey: Guid(139e1be7a91909342869dd2cd4fac552) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Cherry_01.prefab using Guid(139e1be7a91909342869dd2cd4fac552) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '39f1660ae563115ad722f728f6ddaaa3') in 0.0396791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Orange_Grown_01.prefab
+  artifactKey: Guid(99c39d367e6112d4c811f0b545bb1da7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Orange_Grown_01.prefab using Guid(99c39d367e6112d4c811f0b545bb1da7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7760db0ffc9f8e01a1c294794202f343') in 0.0257983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFarm/Prefabs/Characters/SM_Chr_Attach_CowboyHat_01.prefab
+  artifactKey: Guid(59607cf23fbe18f4196263a6931d7223) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Characters/SM_Chr_Attach_CowboyHat_01.prefab using Guid(59607cf23fbe18f4196263a6931d7223) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f85d14ace0a61f9d0bd57cd7812a6a6e') in 0.0550426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Veh_TractorOld_01_Convex.asset
+  artifactKey: Guid(ad82757eafa7db646aa6e7e227f767de) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Veh_TractorOld_01_Convex.asset using Guid(ad82757eafa7db646aa6e7e227f767de) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8e22cc2f93ea97e33c8d0ba784798e38') in 0.0326487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Vege_Rows_01.prefab
+  artifactKey: Guid(f1d92f6821039a348b0b295e7a96c45d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Vege_Rows_01.prefab using Guid(f1d92f6821039a348b0b295e7a96c45d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3bbcb3b2e2efbe2084d5096da9334d87') in 0.0355969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFarm/Prefabs/FX/FX_Fire_02.prefab
+  artifactKey: Guid(d80749e682e1b2347ad32a1189b66577) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/FX/FX_Fire_02.prefab using Guid(d80749e682e1b2347ad32a1189b66577) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6bba9bf1ec656f2cbad5457a6ad8a302') in 0.0758609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Lillypads_02.prefab
+  artifactKey: Guid(19f2b1b83de48fc40a2fc7161b9c859e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Lillypads_02.prefab using Guid(19f2b1b83de48fc40a2fc7161b9c859e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2a4c206504530fac090fb68e9c57efc7') in 0.0473467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFarm/Prefabs/Characters/SM_Chr_Attach_Glasses_01.prefab
+  artifactKey: Guid(21964305d01b6054290f08a48cc6ebab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Characters/SM_Chr_Attach_Glasses_01.prefab using Guid(21964305d01b6054290f08a48cc6ebab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4170ed594bfdaba0afbb32e0d60300bf') in 0.0488168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_01.prefab
+  artifactKey: Guid(ddccd78fc1206d544aa6c8494af5da57) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_01.prefab using Guid(ddccd78fc1206d544aa6c8494af5da57) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '53067f14edf0d517a9deab7950c1fb9c') in 0.0470416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/PolygonFarm/Prefabs/Buildings/SM_Bld_Greenhouse_01.prefab
+  artifactKey: Guid(d18a58184e042eb4cbffba24a88ad835) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Buildings/SM_Bld_Greenhouse_01.prefab using Guid(d18a58184e042eb4cbffba24a88ad835) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9b5cbac81951d0140a7fac4cf37ffe44') in 0.0587057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_01_L.prefab
+  artifactKey: Guid(560f60ddf78a6b240901212ae5507fef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_01_L.prefab using Guid(560f60ddf78a6b240901212ae5507fef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8d0af8f5313b7a41d8d5d308f572f699') in 0.0498722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Small_Rocks_03.prefab
+  artifactKey: Guid(553d403ff0ec5ce478490475bbc5123b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Small_Rocks_03.prefab using Guid(553d403ff0ec5ce478490475bbc5123b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ed8833856c2018214f44ceaa09966e05') in 0.0461129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Tree_Patch_01.prefab
+  artifactKey: Guid(94dac7c4e5d8a7e44b2c93a46b8eff6d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Tree_Patch_01.prefab using Guid(94dac7c4e5d8a7e44b2c93a46b8eff6d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '679af83d589a57ee12e9d9b59093b039') in 0.0300217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_02_S.prefab
+  artifactKey: Guid(30a37dec18fc3b14e9615797cd33da06) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_02_S.prefab using Guid(30a37dec18fc3b14e9615797cd33da06) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '537959eb210d3be3023d382e84573e20') in 0.0435698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Carrot_01_Group.prefab
+  artifactKey: Guid(499ba49ca58a64f468b997cdd7d6112c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Carrot_01_Group.prefab using Guid(499ba49ca58a64f468b997cdd7d6112c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a8c383ddfa57d255dd17f53177214f9c') in 0.041629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Pear_01_Group.prefab
+  artifactKey: Guid(431b9cff64ee2ef46b8f3b2ade75ed14) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Pear_01_Group.prefab using Guid(431b9cff64ee2ef46b8f3b2ade75ed14) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5285840afe6ae0c9c31426a0eadc7528') in 0.0483596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Cabbage_01_M.prefab
+  artifactKey: Guid(c6ad92f3822941a4b87102b4515d3412) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Cabbage_01_M.prefab using Guid(c6ad92f3822941a4b87102b4515d3412) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f07c752d164e68a23ad1882607f7b29d') in 0.0400279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Chilli_01_L.prefab
+  artifactKey: Guid(19029ffb194ad41488821c5bddc8e243) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Chilli_01_L.prefab using Guid(19029ffb194ad41488821c5bddc8e243) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0519ef4a3b7fc43f6654bc0adbd73a0e') in 0.0537593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Asparagus_01_S.prefab
+  artifactKey: Guid(774956914f9686a42a23c51562a3fa43) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Asparagus_01_S.prefab using Guid(774956914f9686a42a23c51562a3fa43) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e457f523f1dcb78ebd00850986e4364a') in 0.0437988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_02_Tomato.prefab
+  artifactKey: Guid(9bf2c79eafa22814a8bd2e6b64647e20) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_02_Tomato.prefab using Guid(9bf2c79eafa22814a8bd2e6b64647e20) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cab6d7f941e4dc008df249fdc15fa102') in 0.0376816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Squash_Delicata_01_L.prefab
+  artifactKey: Guid(dac36971110631b468baa7066b208b19) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Squash_Delicata_01_L.prefab using Guid(dac36971110631b468baa7066b208b19) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '394b8388e9034082fa258033eccc800a') in 0.0439197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_03_L.prefab
+  artifactKey: Guid(87d18a1efdb927541a9117771cddc4ff) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_03_L.prefab using Guid(87d18a1efdb927541a9117771cddc4ff) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '944b786a0e8864838f16b695d15082be') in 0.0321645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001328 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Rubbish_Pile_05.fbx
+  artifactKey: Guid(d48cb0f06aab0f64ea3c270e541999cd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Rubbish_Pile_05.fbx using Guid(d48cb0f06aab0f64ea3c270e541999cd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6eb73606d9ec4af8001da31d35a2638d') in 0.0337382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Squash_Butternut_01_M.fbx
+  artifactKey: Guid(6f00cd30002c32b4f8de78a367f8e590) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Squash_Butternut_01_M.fbx using Guid(6f00cd30002c32b4f8de78a367f8e590) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c05a597412ed6c200c6e4453ff99f055') in 0.0359145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_01_S.prefab
+  artifactKey: Guid(15b4a0a90a613cc43ae69125fc69756f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_01_S.prefab using Guid(15b4a0a90a613cc43ae69125fc69756f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '32de0205b2b2c5c8d8a0c17f215f4991') in 0.0420815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Beehive_03.prefab
+  artifactKey: Guid(c321a3a0860bf584f8b89796ca86da80) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Beehive_03.prefab using Guid(c321a3a0860bf584f8b89796ca86da80) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c93b6601af2a696a936454a039a2d557') in 0.0274806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Plant_Wheat_Optimised_02.fbx
+  artifactKey: Guid(f9133f22be096a747abc5be2c28d69a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Plant_Wheat_Optimised_02.fbx using Guid(f9133f22be096a747abc5be2c28d69a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'fc92516de9ed30762efe09a293a24955') in 0.0241273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Strawberry_01.fbx
+  artifactKey: Guid(c09860dc797c78946be6a01340664298) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Strawberry_01.fbx using Guid(c09860dc797c78946be6a01340664298) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1684d496aa4765cd23c8128d294548fb') in 0.0332212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Squash_Delicata_01_M.prefab
+  artifactKey: Guid(d42a364804da1394689021e6b7c5d4ab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Squash_Delicata_01_M.prefab using Guid(d42a364804da1394689021e6b7c5d4ab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd53601f907a88ad1fb5b8fe6a2300d11') in 0.0353202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Plant_Potato_01_L.fbx
+  artifactKey: Guid(5ff177d63a1d75442aee573d15d26ffd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Plant_Potato_01_L.fbx using Guid(5ff177d63a1d75442aee573d15d26ffd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ab393831ee5c8d5b06ca1c3f68b6adcf') in 0.0319517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Sunflower_01.fbx
+  artifactKey: Guid(3375963121ff0b54c86813011c31bd19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Sunflower_01.fbx using Guid(3375963121ff0b54c86813011c31bd19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '65879c4eb726c4bee8d91e255f2451b1') in 0.0282623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_LetterBox_05.prefab
+  artifactKey: Guid(7a3016edf355be049a773ccf2ca6f8eb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_LetterBox_05.prefab using Guid(7a3016edf355be049a773ccf2ca6f8eb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e60f4e1978a8974e4450a59a3e4aab22') in 0.0482548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_SeedPacket_02.prefab
+  artifactKey: Guid(fc2748658d31ef848870b8ad53bc5550) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_SeedPacket_02.prefab using Guid(fc2748658d31ef848870b8ad53bc5550) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a8c992d9df7e1e515e733d47075e9889') in 0.0453482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001020 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Beehive_01.prefab
+  artifactKey: Guid(786679abb640bd84093160df1b69104b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Beehive_01.prefab using Guid(786679abb640bd84093160df1b69104b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '420fcb698560d959e0f0f1f77d710448') in 0.0506298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Strawberry_01_Group.prefab
+  artifactKey: Guid(45d3ceaa5c1179d44ac4bcb54904d21f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Strawberry_01_Group.prefab using Guid(45d3ceaa5c1179d44ac4bcb54904d21f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b5eb71e8372196ac74ce2452e7118f52') in 0.0487484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Well_01.fbx
+  artifactKey: Guid(8fd6b4852e8f4ea419f3037261d807c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Well_01.fbx using Guid(8fd6b4852e8f4ea419f3037261d807c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'cffdf5759ceb222f755af15be78b905a') in 0.035885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Power_Pole_01.fbx
+  artifactKey: Guid(ab544d0b7ed21554687abd40d38d682a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Power_Pole_01.fbx using Guid(ab544d0b7ed21554687abd40d38d682a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a1a8b1b13cf1feedea63f4939515f8f8') in 0.0320693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Wheelbarrow_Metal_01.fbx
+  artifactKey: Guid(a0b17678769e83d458718de61e3b9d15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Wheelbarrow_Metal_01.fbx using Guid(a0b17678769e83d458718de61e3b9d15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '64a64e7086bfa2cf038a2b12017dc076') in 0.0577851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Tomato_01_S.fbx
+  artifactKey: Guid(c7927232541b5c245b7ec6ae4694d7d9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Tomato_01_S.fbx using Guid(c7927232541b5c245b7ec6ae4694d7d9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd016dcb018772d0c73bf2cf540cc00c7') in 0.0536948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_01_L2.prefab
+  artifactKey: Guid(8d31e3678600380468a7dc76c90161dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_01_L2.prefab using Guid(8d31e3678600380468a7dc76c90161dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8df66a227e2f3f6c9ff3141ca93bc2a3') in 0.0459866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
+  artifactKey: Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity using Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity'
+	Deserialize:            133.028 ms
+	Integration:            162.564 ms
+	Integration of assets:  27.119 ms
+	Thread Wait Time:       1.574 ms
+	Total Operation Time:   324.286 ms
+ -> (artifact id: '3c9d65577931386eccc7e6471002a05a') in 0.402983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Scythe_01.prefab
+  artifactKey: Guid(1e528a9f343d94840b7363fd6c347453) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Scythe_01.prefab using Guid(1e528a9f343d94840b7363fd6c347453) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c9114d7e694858901af4acec4ecd73dd') in 0.0380604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Plant_Ground_02_L2.fbx
+  artifactKey: Guid(f2288ba0ffdff9b4d8d4c8c0a98170b2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Plant_Ground_02_L2.fbx using Guid(f2288ba0ffdff9b4d8d4c8c0a98170b2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ffb49962a629adef53c02e75d1322d4c') in 0.0318021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity'
+	Deserialize:            73.353 ms
+	Integration:            24.978 ms
+	Integration of assets:  1.150 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   99.502 ms
+The method get_fontSharedMaterials was not found on Item Label. This property will not be indexed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@82fb1398b3b8/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@82fb1398b3b8/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@82fb1398b3b8/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+The method get_fontSharedMaterials was not found on Item Label. This property will not be indexed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@82fb1398b3b8/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@82fb1398b3b8/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@82fb1398b3b8/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: '6fa41b60202b69852cc80cffa18c36c8') in 0.1514708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/blue_sliderLeft.png
+  artifactKey: Guid(db3465c06ea6be54881259afb3589373) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/blue_sliderLeft.png using Guid(db3465c06ea6be54881259afb3589373) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8fab898c85d20540a13a8da1958c2d65') in 0.046852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/blue_button09.png
+  artifactKey: Guid(b143da3f73f53954fa5698af41235c05) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/blue_button09.png using Guid(b143da3f73f53954fa5698af41235c05) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6fe364a699112e4b81cec70809718725') in 0.0474563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Scenes/Level 2/LightingData.asset
+  artifactKey: Guid(744ccccaf3a84e84a90aff1ddde11c42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Level 2/LightingData.asset using Guid(744ccccaf3a84e84a90aff1ddde11c42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'fd812777a5b8a59484b0dc07376fb43a') in 0.0454721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFarm/Textures/Leaves_Normals.png
+  artifactKey: Guid(04a6fcb36a4578b428a2bb71ced3e8f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Textures/Leaves_Normals.png using Guid(04a6fcb36a4578b428a2bb71ced3e8f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '51770ee8501cbeb8e5c35713f7776a8c') in 0.0759235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/blue_sliderRight.png
+  artifactKey: Guid(5b3a9625bd68e294e8e5634c1113fa00) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/blue_sliderRight.png using Guid(5b3a9625bd68e294e8e5634c1113fa00) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '40acfbe19c4266f61ab34d913d59434b') in 0.0528733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '227dde81780571e41934505981cdf9fb') in 0.0464082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8c4881a039eb306c06a459ee9982fb02') in 0.0429894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Wood_Round_Inset_01.prefab
+  artifactKey: Guid(9e0ceb26e65ce344f9a4e9f94c347e64) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Wood_Round_Inset_01.prefab using Guid(9e0ceb26e65ce344f9a4e9f94c347e64) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7873ecc503e6111e628dad4d0160ba9c') in 0.0618357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity'
+	Deserialize:            48.612 ms
+	Integration:            7.880 ms
+	Integration of assets:  1.066 ms
+	Thread Wait Time:       0.172 ms
+	Total Operation Time:   57.730 ms
+ -> (artifact id: 'e1629ec1d33a715ccc6c4fa11158d42c') in 0.0886844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Table_01.prefab
+  artifactKey: Guid(0504778a38044d446a030c9203219e0d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Table_01.prefab using Guid(0504778a38044d446a030c9203219e0d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '58d41b32e157d9cfdc238c88d3c1c2ef') in 0.0350634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Hayfork_01.prefab
+  artifactKey: Guid(11ad7d46a58babd439dd912d73452a3e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Hayfork_01.prefab using Guid(11ad7d46a58babd439dd912d73452a3e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fab4d30d458b97cbf2eefad5023f9a39') in 0.0360586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Sign_Cucumbers_01.prefab
+  artifactKey: Guid(3a280b28245122641a2437313d08e1c3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Sign_Cucumbers_01.prefab using Guid(3a280b28245122641a2437313d08e1c3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cdf7bf89f653617d320a97a2244e4c4f') in 0.0369777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Small_Rocks_01.prefab
+  artifactKey: Guid(e2237f9c45037b34da96772393062ed0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Small_Rocks_01.prefab using Guid(e2237f9c45037b34da96772393062ed0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '391924c5854c7f0162ba36380fe557fe') in 0.0504581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Models/SM_Prop_Truck_Rusted_01.fbx
+  artifactKey: Guid(0f6c8205d746b434cabe5af113c63cc7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/SM_Prop_Truck_Rusted_01.fbx using Guid(0f6c8205d746b434cabe5af113c63cc7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7f84856064b6f59a1114026b231e1ac4') in 0.0362891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Corn_01_S.prefab
+  artifactKey: Guid(23303cb0efade674b946eb8d8fb90e7f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Corn_01_S.prefab using Guid(23303cb0efade674b946eb8d8fb90e7f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3b98f33af55801fd0a1a8ed257365753') in 0.042234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.359631 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/grey_button01.png
+  artifactKey: Guid(cabbae10400797c48acee32e4b8067b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/grey_button01.png using Guid(cabbae10400797c48acee32e4b8067b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'cb88eda5d06b497a7a60f98162db155b') in 0.0399117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonFarm/Materials/Misc/PolygonFarm_Fence.mat
+  artifactKey: Guid(2845f789a0bac5746b21033a32853739) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Materials/Misc/PolygonFarm_Fence.mat using Guid(2845f789a0bac5746b21033a32853739) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '191628a81a1b20017d33b0ee98af23e6') in 0.0301242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Chr_Attach_Cap_02_Convex.asset
+  artifactKey: Guid(44f1cda744c8d7940938975c7b460712) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Chr_Attach_Cap_02_Convex.asset using Guid(44f1cda744c8d7940938975c7b460712) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '86d10877aa3c41a03425dd12fb6f4a4f') in 0.0267663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Bld_Barn_03_Convex.asset
+  artifactKey: Guid(91857dd6b7803d4469aea389523030be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Bld_Barn_03_Convex.asset using Guid(91857dd6b7803d4469aea389523030be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '78defa0b96700818343ab089e2b9c426') in 0.0246457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/Base pack (140 assets)/Spritesheet/redSheet.png
+  artifactKey: Guid(a4b7952655505b24c883913a319f6dae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/Spritesheet/redSheet.png using Guid(a4b7952655505b24c883913a319f6dae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e00d1fd164e3ee3255beff8cfc700642') in 0.0389337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/grey_sliderVertical.png
+  artifactKey: Guid(7ffbef94795756d47b36961231b2ca1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/grey_sliderVertical.png using Guid(7ffbef94795756d47b36961231b2ca1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '991b5d82c374576e58c793a8b73c2ddd') in 0.0407552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFarm/Materials/Alts/PolygonFarm_01_B.mat
+  artifactKey: Guid(c32db614be2c60d4ca78417d651331b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Materials/Alts/PolygonFarm_01_B.mat using Guid(c32db614be2c60d4ca78417d651331b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '918ec32cea1ee366d88dcb335033656a') in 0.0527706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/grey_sliderEnd.png
+  artifactKey: Guid(d87087537fe2e904fb73d232a15ffff3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/grey_sliderEnd.png using Guid(d87087537fe2e904fb73d232a15ffff3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '94badfa37dde912847d94313731d82a8') in 0.0507459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/yellow_button05.png
+  artifactKey: Guid(ae51fa72277b2464f83a8a891bf8e19e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/yellow_button05.png using Guid(ae51fa72277b2464f83a8a891bf8e19e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '3d907e31348ea3d21c272f4e0c97cdca') in 0.0487848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/grey_sliderLeft.png
+  artifactKey: Guid(bff73efcacce69d42aba997048ce9f22) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/grey_sliderLeft.png using Guid(bff73efcacce69d42aba997048ce9f22) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f25617eef5b872602d26bd34da293450') in 0.0434474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Base pack (140 assets)/PNG/yellow_sliderLeft.png
+  artifactKey: Guid(e35b295cf52bafd43a3fd8ec4b4fbf68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Packages/Base pack (140 assets)/PNG/yellow_sliderLeft.png using Guid(e35b295cf52bafd43a3fd8ec4b4fbf68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5036a5cdf8720fd7c40b18298408b6f5') in 0.0356034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.683522 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Dirt_Rows_Skirt_01_Convex.asset
+  artifactKey: Guid(40905e73fa705834dbac80e0b293c080) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Dirt_Rows_Skirt_01_Convex.asset using Guid(40905e73fa705834dbac80e0b293c080) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '89ef23ced114d4d456cafac6c12154be') in 0.0252465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Banana_01_Group_Convex.asset
+  artifactKey: Guid(dc65438ee029602469c4d04dce224486) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Banana_01_Group_Convex.asset using Guid(dc65438ee029602469c4d04dce224486) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'cfa7b23547ae955f20b7ec961bc10bfe') in 0.0271552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Pebbles_02_Convex.asset
+  artifactKey: Guid(353ed3895e627064f979397d6a18ba1b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Pebbles_02_Convex.asset using Guid(353ed3895e627064f979397d6a18ba1b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '01d090e6c5eb22326bfbf45d5a56b1bf') in 0.0214093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Bean_01_M_Convex.asset
+  artifactKey: Guid(07aad8ff2b6c62d4db714fa1b00d032d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Bean_01_M_Convex.asset using Guid(07aad8ff2b6c62d4db714fa1b00d032d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'da2ad2b1c74eb65ce39c5ae27b4793b5') in 0.0312304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Bench_01_Convex.asset
+  artifactKey: Guid(8b5391beead8ac642a04acedc6e909ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Bench_01_Convex.asset using Guid(8b5391beead8ac642a04acedc6e909ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '824aeb77aaf7f895b579b78a4997ecc7') in 0.0287996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_01_Convex 1.asset
+  artifactKey: Guid(2f828eea5fa97fd48b5f1f6351835021) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_01_Convex 1.asset using Guid(2f828eea5fa97fd48b5f1f6351835021) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0dd25abbb608279256ebf14a08b02fa3') in 0.0287214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_Grown_01_Convex.asset
+  artifactKey: Guid(8c1a565afddef6b40a4d3b43d675308c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_Grown_01_Convex.asset using Guid(8c1a565afddef6b40a4d3b43d675308c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '776ae31055c117147c670c200a0949c4') in 0.0283727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Box_Potato_01_Convex.asset
+  artifactKey: Guid(f35e5d1bae6e52745935d09c00a889e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Box_Potato_01_Convex.asset using Guid(f35e5d1bae6e52745935d09c00a889e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b4c2a322014d9420469990acd94f2bc4') in 0.0239595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_01_Convex.asset
+  artifactKey: Guid(a67e2f3683aa68d40b19ac161b005891) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_01_Convex.asset using Guid(a67e2f3683aa68d40b19ac161b005891) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6fc46bbbeab995243fa7ef451d9c8f5d') in 0.0361983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Road_Gravel_Corner_01_Convex.asset
+  artifactKey: Guid(c1eaf5d88ec473b4e9700e4ae727ed1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Road_Gravel_Corner_01_Convex.asset using Guid(c1eaf5d88ec473b4e9700e4ae727ed1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '95704229bd681029cd565109bb743ef7') in 0.0298572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Orange_01_Convex 1.asset
+  artifactKey: Guid(8c840450d37cdf549802542768cdadf9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Orange_01_Convex 1.asset using Guid(8c840450d37cdf549802542768cdadf9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '126c3ab3c6a06bb5eceb5ae9fddc56b4') in 0.0328243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Flowers_01_Convex.asset
+  artifactKey: Guid(0836dffcd4afd8f48b94ce7c60a142d2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Flowers_01_Convex.asset using Guid(0836dffcd4afd8f48b94ce7c60a142d2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'aa15f12022acb2bd5fc927162d4e1173') in 0.0309997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Mountains_Snow_01_Convex.asset
+  artifactKey: Guid(1a0767860e474e44797d99345f80de9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Mountains_Snow_01_Convex.asset using Guid(1a0767860e474e44797d99345f80de9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a59c87b33b51cccff9dfccf72f0d6690') in 0.0303713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Apple_01_Convex.asset
+  artifactKey: Guid(b4db0b869097d5e43ba5e9a0fd3c0b53) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Apple_01_Convex.asset using Guid(b4db0b869097d5e43ba5e9a0fd3c0b53) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8921daccfb26674afdb2c71b63b30f2f') in 0.0271262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Grass_Patch_02_Convex.asset
+  artifactKey: Guid(828356d7fff467d43b35109d07356a4e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Generic_Grass_Patch_02_Convex.asset using Guid(828356d7fff467d43b35109d07356a4e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'bfaf3743af4ef3adaf82a616b43d0c01') in 0.0264071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Carrot_01_Group_Convex.asset
+  artifactKey: Guid(c961ad9898e16264a9752e5e882a6ef7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Carrot_01_Group_Convex.asset using Guid(c961ad9898e16264a9752e5e882a6ef7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0196fed640d404e3decf655ca49b9fa7') in 0.0218242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444823 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Fancy_Pole_Spike_01_Convex.asset
+  artifactKey: Guid(c76cdd87437953143bb903878eb09c3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Fence_Fancy_Pole_Spike_01_Convex.asset using Guid(c76cdd87437953143bb903878eb09c3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8656c2e86d10cf82756f5502736b21e8') in 0.0228463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Rubbish_07_Convex.asset
+  artifactKey: Guid(2b41412c9a3a25945977da2e780785ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Rubbish_07_Convex.asset using Guid(2b41412c9a3a25945977da2e780785ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e912d96fc753ba7c640c648b5c3f9859') in 0.0198688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pepper_01_M_Convex.asset
+  artifactKey: Guid(0f06d267fd8bd124b9dfb6ea6c3272fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pepper_01_M_Convex.asset using Guid(0f06d267fd8bd124b9dfb6ea6c3272fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'af5689c5f921cbafdce1d875d10c278b') in 0.0252051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Ground_03_L_Convex.asset
+  artifactKey: Guid(9c3440a4b8ac007438cdc7f0cbafb993) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Ground_03_L_Convex.asset using Guid(9c3440a4b8ac007438cdc7f0cbafb993) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '4882e3ff7c4c647fe96ccf4b1165d0f4') in 0.0274235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pepper_01_S_Convex.asset
+  artifactKey: Guid(6e7babde9f4dbe14697ee223bed5c041) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pepper_01_S_Convex.asset using Guid(6e7babde9f4dbe14697ee223bed5c041) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '694333f85ec66dcc8314f7c13d3d2788') in 0.0267387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Hay_Pile_02_Green_Convex.asset
+  artifactKey: Guid(0e9e51112d2831049a29eba08784ab06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Hay_Pile_02_Green_Convex.asset using Guid(0e9e51112d2831049a29eba08784ab06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b991627923fe039cbecf75b833f88f32') in 0.0253795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Corn_01_S_Convex.asset
+  artifactKey: Guid(66c0d1dedf975a5459b22d5eb344c637) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Corn_01_S_Convex.asset using Guid(66c0d1dedf975a5459b22d5eb344c637) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f3191789285170fc38ae139c0f229066') in 0.0324769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001788 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pepper_01_Group_Convex.asset
+  artifactKey: Guid(55682eb59666e0a43b98dc44d5fa35ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Pepper_01_Group_Convex.asset using Guid(55682eb59666e0a43b98dc44d5fa35ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6e8a355b172f532887a7b708922c708b') in 0.0295912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lettuce_01_L_Convex.asset
+  artifactKey: Guid(2048a0881b76925429f164e9dbf6f45f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lettuce_01_L_Convex.asset using Guid(2048a0881b76925429f164e9dbf6f45f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '264363a42bf358f9943bb7c590075983') in 0.0357266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Scarecrow_01_Convex.asset
+  artifactKey: Guid(473bd5f67847caf40874d9b8e7700b95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Scarecrow_01_Convex.asset using Guid(473bd5f67847caf40874d9b8e7700b95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '39f69f08f5018f116697edb28c283226') in 0.0474209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Ground_01_S_Convex.asset
+  artifactKey: Guid(4412cbb243418ba41845ef1b13b8e96e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Ground_01_S_Convex.asset using Guid(4412cbb243418ba41845ef1b13b8e96e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f9906141af8d95e40ff981e5b988beb0') in 0.0560488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001086 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_LetterBox_03_Convex.asset
+  artifactKey: Guid(4af77cbc7a109e7498185c810aa9ff8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_LetterBox_03_Convex.asset using Guid(4af77cbc7a109e7498185c810aa9ff8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '2ba9740fff2f0920f0fd7ceae73575e3') in 0.046181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005978 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lettuce_01_M_Convex.asset
+  artifactKey: Guid(b8501b7d8a4f85547b53a31a786a705f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Lettuce_01_M_Convex.asset using Guid(b8501b7d8a4f85547b53a31a786a705f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a7d21a03929d4f40b9adbca0b1897151') in 0.0328506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Squash_Delicata_01_Convex.asset
+  artifactKey: Guid(005dda7b3d2d78a45becdd92bc95d717) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Squash_Delicata_01_Convex.asset using Guid(005dda7b3d2d78a45becdd92bc95d717) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a1598d6ac6eb9bd9066b89478ea44360') in 0.0529933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Horse_Jump_01_Convex.asset
+  artifactKey: Guid(773e2d621905a75478287928b1acdc37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Horse_Jump_01_Convex.asset using Guid(773e2d621905a75478287928b1acdc37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '61aeec7a427d499254b92642173feab6') in 0.0342505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Wheat_Optimised_03_Convex.asset
+  artifactKey: Guid(fc98f304ddd021d4898b83143c251cf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Plant_Wheat_Optimised_03_Convex.asset using Guid(fc98f304ddd021d4898b83143c251cf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'bde37d00266280c10812fb99f275ec28') in 0.0244393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103153 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Watermelon_01_Convex.asset
+  artifactKey: Guid(3bd55d1e97fbb5b4587f509ea1a25f7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Prop_Watermelon_01_Convex.asset using Guid(3bd55d1e97fbb5b4587f509ea1a25f7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5ca00a9de9f8a07d7e1fe629eb2fe25e') in 0.027248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Stump_02.prefab
+  artifactKey: Guid(4d066123abe70604c93da5e7ef46e98d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Stump_02.prefab using Guid(4d066123abe70604c93da5e7ef46e98d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '489a6002ad21e7eecb84aefd177083a6') in 0.0437816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Cloud_05.prefab
+  artifactKey: Guid(f5a8419f5401efb469c18064c4767646) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Cloud_05.prefab using Guid(f5a8419f5401efb469c18064c4767646) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f689b7ddcecc45df48cebc7974fbd48a') in 0.0405588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_01_M.prefab
+  artifactKey: Guid(8c64118ce05103a49965da9b0265081f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_01_M.prefab using Guid(8c64118ce05103a49965da9b0265081f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '17d3c30edbf5af3366dcea907170dc23') in 0.0380131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Apricot_Grown_01.prefab
+  artifactKey: Guid(3f906b96f01718f4aac8de5eda9888d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Apricot_Grown_01.prefab using Guid(3f906b96f01718f4aac8de5eda9888d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e210434bfc579a762ef39a1c2e53446f') in 0.0391036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_02.prefab
+  artifactKey: Guid(fb3455787bbec434a9d65f0e6813b8f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_02.prefab using Guid(fb3455787bbec434a9d65f0e6813b8f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5af75c9f9fb479b2baea8b1b9b8ecd97') in 0.026741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Box_Onion_01.prefab
+  artifactKey: Guid(06cb4a5b385913d43b1f570fad9413ff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Box_Onion_01.prefab using Guid(06cb4a5b385913d43b1f570fad9413ff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '037ce75fd92c690851a16a5d93f03e5c') in 0.0321988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Models/CollisionConvex/SM_Veh_Harvester_01_Convex.asset
+  artifactKey: Guid(c06d238648161db4ba4e3763d0934ae4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Models/CollisionConvex/SM_Veh_Harvester_01_Convex.asset using Guid(c06d238648161db4ba4e3763d0934ae4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ca28f908867164d21b6afde9b5f69fb7') in 0.0303543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Onion_01_Group.prefab
+  artifactKey: Guid(b0d46514616936f42a523e1d204b4e56) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Onion_01_Group.prefab using Guid(b0d46514616936f42a523e1d204b4e56) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '76d0fb559b60c2975d7fca641e73af35') in 0.0311229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Apple_01.prefab
+  artifactKey: Guid(4cc231a2ac0a02941b660e196db6ce29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Apple_01.prefab using Guid(4cc231a2ac0a02941b660e196db6ce29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f9d6bf9011ea73715b573165bfda60a8') in 0.0384238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Asparagus_01_S.prefab
+  artifactKey: Guid(774956914f9686a42a23c51562a3fa43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Asparagus_01_S.prefab using Guid(774956914f9686a42a23c51562a3fa43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c88de8eefe4b5da6e2d8eb60844187f2') in 0.0335969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Tree_04.prefab
+  artifactKey: Guid(cfcb6ecbdafd1c940b4dccdc2a3ae3ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Tree_04.prefab using Guid(cfcb6ecbdafd1c940b4dccdc2a3ae3ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ed5f926c77e222e860d3f1c9099dd97b') in 0.0307928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Prefabs/Buildings/SM_Bld_Greenhouse_01.prefab
+  artifactKey: Guid(d18a58184e042eb4cbffba24a88ad835) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Buildings/SM_Bld_Greenhouse_01.prefab using Guid(d18a58184e042eb4cbffba24a88ad835) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '04d18f9dfcc90cb277ade76e2e1bb53a') in 0.0489036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001695 seconds.
+  path: Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Apple_01.prefab
+  artifactKey: Guid(91169ee23d4147340bba9836e7c51716) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Apple_01.prefab using Guid(91169ee23d4147340bba9836e7c51716) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '76b5428269d384052b31eca55a45b6d5') in 0.0375728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFarm/Prefabs/Characters/SM_Chr_Farmer_Female_01.prefab
+  artifactKey: Guid(827a26e9b261b7847ac6cc3df54f2677) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Characters/SM_Chr_Farmer_Female_01.prefab using Guid(827a26e9b261b7847ac6cc3df54f2677) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1cd1f300c3d82b89da4c0b18f8826142') in 0.0387305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 127
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Gastank_01.prefab
+  artifactKey: Guid(0fd04b3c357c91a4bacd5ccc6b8e2cdf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Gastank_01.prefab using Guid(0fd04b3c357c91a4bacd5ccc6b8e2cdf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '756eda38cd640928e1d3090dbc02c530') in 0.0321171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Painted_01.prefab
+  artifactKey: Guid(9098f82c6bbddeb428b3666ea69ca877) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Painted_01.prefab using Guid(9098f82c6bbddeb428b3666ea69ca877) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e5eb4f72f3c546f69ed29a99cba5e13f') in 0.034109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Rubbish_Pile_01.prefab
+  artifactKey: Guid(5be66b8653bf91c498139d6cef8ec789) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Rubbish_Pile_01.prefab using Guid(5be66b8653bf91c498139d6cef8ec789) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6f56b54c918469eb8ae8e950f3f7827e') in 0.0309475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Bed_01.prefab
+  artifactKey: Guid(fce9f6a9a97c1e24592390be3e3f01ef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Bed_01.prefab using Guid(fce9f6a9a97c1e24592390be3e3f01ef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd8e1d8f3e4489d3281f24a51bdc8ce64') in 0.0308317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Tomato_01_M.prefab
+  artifactKey: Guid(d1d6e6bd9deeb5443a7de9548979e947) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Tomato_01_M.prefab using Guid(d1d6e6bd9deeb5443a7de9548979e947) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e6b0f59e82676e1a9fa8c1f3b261b898') in 0.0263093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000745 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Wire_Pole_01.prefab
+  artifactKey: Guid(070d2a04ccc36704c941b3ddc10e4f96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Wire_Pole_01.prefab using Guid(070d2a04ccc36704c941b3ddc10e4f96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '506d193a3573ccff86ef68088ee3a699') in 0.0322738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Rubbish_Pile_04.prefab
+  artifactKey: Guid(7f79095fcd1b2a94db7ebe070ccdb7c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Rubbish_Pile_04.prefab using Guid(7f79095fcd1b2a94db7ebe070ccdb7c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5d8e2dea00a219e13836a8fad80655ac') in 0.0328879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_01_L.prefab
+  artifactKey: Guid(2a0007479c060c24abe049a983b38384) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Ground_01_L.prefab using Guid(2a0007479c060c24abe049a983b38384) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7a6f2dfb9d0a65089dec4aa55d337bec') in 0.0331821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plum_01.prefab
+  artifactKey: Guid(15c195af945d4584d9c57bfa98aef6bd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plum_01.prefab using Guid(15c195af945d4584d9c57bfa98aef6bd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'fa65b7bf147ab164bfae14e9faf7387a') in 0.0399288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Carrot_01_S.prefab
+  artifactKey: Guid(a74d9e41a3e780f47b3278a49fe842da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Carrot_01_S.prefab using Guid(a74d9e41a3e780f47b3278a49fe842da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '16756658f8a82ecd8d0f46c781c9df20') in 0.0362169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_SignPost_01.prefab
+  artifactKey: Guid(3a6c268650f0f134a8f82fe2d96d5554) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_SignPost_01.prefab using Guid(3a6c268650f0f134a8f82fe2d96d5554) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '51d46c4fe45f00add6204a4e7444c411') in 0.031063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Box_Carrot_01.prefab
+  artifactKey: Guid(037d960215484f040bd0612ffbbc2a0f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Box_Carrot_01.prefab using Guid(037d960215484f040bd0612ffbbc2a0f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '410ba72922469c9436d1db4d58355eb9') in 0.0282841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7ca621172e0a06535ef23b5bb519f0a6') in 0.0341388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f600e5033ff9d14d43398917aea17bf8') in 0.0403107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6d226ed2cdca335e675f8091d223fadd') in 0.0460994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001295 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f79440ad0c054a8365d95ff1c9c1f847') in 0.0300244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b33366c1008e088f2ad49ad2b1be432f') in 0.0365059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+  artifactKey: Guid(8c4969fd8ba94a68b07cf11f3e7a5137) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity using Guid(8c4969fd8ba94a68b07cf11f3e7a5137) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '08449510b314f8ee1b1746b8dc346a41') in 0.0404719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Wood_Stack_02.prefab
+  artifactKey: Guid(2c01a47be2120034ca2fbf18b127774f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Wood_Stack_02.prefab using Guid(2c01a47be2120034ca2fbf18b127774f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '2cc058ef62d24d271d5eef585261be82') in 0.0299566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e6a678638e209d0e8ee343a1ece02492') in 0.0259795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Scarecrow_01.prefab
+  artifactKey: Guid(bc6a59c177fcfa1429ae39d1360e8544) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Scarecrow_01.prefab using Guid(bc6a59c177fcfa1429ae39d1360e8544) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd6ee20fa888da60f715fd338d753b926') in 0.0311092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Small_Rocks_04.prefab
+  artifactKey: Guid(495eb46654887ae49b14c48d1b44996b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Small_Rocks_04.prefab using Guid(495eb46654887ae49b14c48d1b44996b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'bcb7a6a43051a854c8e0c15c06b12e29') in 0.0327344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Corn_01.prefab
+  artifactKey: Guid(89d45cc3f8c15c447ba542f5cfd3461f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Corn_01.prefab using Guid(89d45cc3f8c15c447ba542f5cfd3461f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7b0311842c702c0ce80a6de9a7a98fce') in 0.0286103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_ClothesLine_03.prefab
+  artifactKey: Guid(2bf3c373ccd3d8f49b8deb10c1b61dc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_ClothesLine_03.prefab using Guid(2bf3c373ccd3d8f49b8deb10c1b61dc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ac30345a408283a51efb1aaabd62d78e') in 0.0354395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Painted_Pole_02.prefab
+  artifactKey: Guid(7a457b699dcde25428c2e9d685bfd99a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Painted_Pole_02.prefab using Guid(7a457b699dcde25428c2e9d685bfd99a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '98d333821a14a241aefc6572c7990727') in 0.029385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Cloud_01.prefab
+  artifactKey: Guid(ef5a38a28b01c9648bc93bc079f3a90b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Cloud_01.prefab using Guid(ef5a38a28b01c9648bc93bc079f3a90b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '6043fd797ab71c9d0a0635ce74905564') in 0.0345853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Lemon_01.prefab
+  artifactKey: Guid(8a6867218620e394a9a25cf0f99719b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Lemon_01.prefab using Guid(8a6867218620e394a9a25cf0f99719b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ef4cd7347daeedc867b8a30d02486856') in 0.0483208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Watermelon_01_M.prefab
+  artifactKey: Guid(6a47ffa391bc13344926e5daf2861cba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Watermelon_01_M.prefab using Guid(6a47ffa391bc13344926e5daf2861cba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '931df9b73b408535648ca923c342db80') in 0.0340427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd83e21fa9e24b4c5a07edc846a4cb010') in 0.0303353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Ground_Hill_02.prefab
+  artifactKey: Guid(4307d9efec87cef448092dd0cf65e386) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Generic/SM_Generic_Ground_Hill_02.prefab using Guid(4307d9efec87cef448092dd0cf65e386) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8c4ec377ebfbb9ad9090b7e57bf3103c') in 0.0332412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Wood_Round_Inset_01.prefab
+  artifactKey: Guid(9e0ceb26e65ce344f9a4e9f94c347e64) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Wood_Round_Inset_01.prefab using Guid(9e0ceb26e65ce344f9a4e9f94c347e64) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '118686db476b063bfef0bd4fd35e341e') in 0.0375595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Fancy_03.prefab
+  artifactKey: Guid(fc3a1be4d0840704c87a581eca5dd285) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_Fence_Fancy_03.prefab using Guid(fc3a1be4d0840704c87a581eca5dd285) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a3ae42358dcde82db1369e4454b03ed5') in 0.0328557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Lettuce_01_L.prefab
+  artifactKey: Guid(0d64776e4e2c7de4cb02f9b3998fa4bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Lettuce_01_L.prefab using Guid(0d64776e4e2c7de4cb02f9b3998fa4bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '27e2dd6b6ab5d2311968aebbb5897325') in 0.0352876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonFarm/Prefabs/Props/SM_Prop_GrainBag_01.prefab
+  artifactKey: Guid(f9541c93ab6da7843b086a4abc8eccc5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PolygonFarm/Prefabs/Props/SM_Prop_GrainBag_01.prefab using Guid(f9541c93ab6da7843b086a4abc8eccc5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '010ce95d0d9c3fe8177fcdd4a92029d5') in 0.0429583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 79 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.9 MB). Loaded Objects now: 6191.
+Memory consumption went from 126.6 MB to 123.6 MB.
+Total: 15.306200 ms (FindLiveObjects: 0.672300 ms CreateObjectMapping: 1.135400 ms MarkObjects: 11.583100 ms  DeleteObjects: 1.913600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (2.9 MB). Loaded Objects now: 6193.
+Memory consumption went from 122.9 MB to 119.9 MB.
+Total: 19.410800 ms (FindLiveObjects: 0.763600 ms CreateObjectMapping: 0.998000 ms MarkObjects: 15.528800 ms  DeleteObjects: 2.118300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -11,12 +11,16 @@ public class ObjectPlacer : MonoBehaviour
     [SerializeField] private List<GameObject> clothesGrid = new List<GameObject>();
     [SerializeField] private List<GameObject> pinGrid = new List<GameObject>();
     [SerializeField] private List<Collider> clothesColliders = new List<Collider>();
+    [SerializeField] private Material activeShader;
+    [SerializeField] private Material inActiveShader;
 
     private GameObject currentTextObject;
 
     [InspectorButton("GetAllClothesColliders")]
     public bool GetClothesColliders;
 
+
+    private ClothingStats tempCloth;
 
     private void Start()
     {
@@ -42,12 +46,31 @@ public class ObjectPlacer : MonoBehaviour
                     }
                     currentTextObject = hit.collider.gameObject.transform.root.GetChild(1).gameObject;
                     currentTextObject.SetActive(true);
+
+
+
+                    if(!tempCloth)
+                    {
+                        tempCloth = hit.collider.GetComponent<ClothingStats>();
+                        tempCloth.SetShaders(activeShader);
+                    }
+                    else if(tempCloth && tempCloth.gameObject != hit.collider.gameObject)
+                    {
+                        tempCloth.SetShaders(inActiveShader);
+                        tempCloth = null;
+                    }
                 }
                 else
                 {
                     if (currentTextObject)
                     {
                         currentTextObject.SetActive(false);
+                    }
+
+                    if (tempCloth)
+                    {
+                        tempCloth.SetShaders(inActiveShader);
+                        tempCloth = null;
                     }
                 }
             }
